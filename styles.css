@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Diphylleia&family=Grape+Nuts&family=Josefin+Sans:wght@200;500&family=Lobster+Two:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Diphylleia', serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster Two', cursive;
+}
+
+@media screen and (max-width:768px)
+{
+    header {
+        width: 100%;
+    }
+    
+    #logo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+   /* 
+    #hamburguer {
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        font-size: 30px;
+        position: fixed;
+        right: 10px;
+        top: 127px;
+    } 
+    #background-menu {
+        width: 50px;
+        height: 700px;
+        background-color: #1E1E1E;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        position: fixed;
+        right: 0;
+        border-radius: 50px;
+    
+    }
+    
+    .menus {
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+    
+    #menu1 {
+        margin-left: 10px;
+    }
+    
+    #menu2 {
+        margin-right: 0;
+    }
+    
+    .options {
+        list-style: none;
+        background-color: #1E1E1E88;
+        margin-bottom: 8px;
+        border: transparent 1px;
+        border-radius: 100px;
+        width: 180px;
+        height: 25px;
+        text-align: center;
+    }
+*/   
+    /* **section -principal-image** */
+    .principal-image {
+        width: 100%;
+        height: 360px;
+    }
+
+    /* **main-body** */
+
+    main{
+        background-color: #605b5b36;
+    }
+
+    #come-back-top {
+        width: 36px;
+        height: 36px;
+        position: fixed;
+        bottom: 150px;
+        left: 15px;
+    }
+
+    h2{
+        width: 330px;
+        font-size: 40px;
+        text-align: center;
+        color: #1e1e1e;
+        display: block;
+        margin: 0 auto 35px auto;
+        padding-top: 70px;
+    }
+
+    .paragraph-principal {
+        background-color: #f27b35;
+        padding: 30px;
+        width: 85%;
+        height: 460px;
+        border: transparent;
+        border-radius: 20px 0;
+        margin-left: 8px;
+        margin-bottom: 30px;
+    }
+
+    .paragraph {
+        color: #1e1e1e;
+        font-size: 16px;
+        text-align: end;
+        margin-bottom: 18px;
+    }
+
+    #title, #title2 {
+        text-align: center;
+        color: #143d56;
+        font-size: 23px;
+    }
+
+    .principals-services-options {
+        background-color: #1e1e1e;
+        color: #f27b35;
+        width: 300px;
+        height: 415px;
+        border: transparent;
+        border-radius: 20px 0;
+        position: relative;
+        left: 150px;
+        padding: 50px 0 0 75px;
+    }
+
+    .options2{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* **footer** */
+    footer {
+        background-color: #f27b35;
+        width: 100%;
+        padding: 15px;
+    }
+    .footer-main {
+        width: 600px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
