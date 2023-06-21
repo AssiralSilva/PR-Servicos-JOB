@@ -14,35 +14,70 @@
 {
     header {
         width: 100%;
+        position: fixed;
     }
     
+    .logo-wrapper {
+        background-color: #143d56;
+        margin-bottom: 10px;
+    }
+
     #logo {
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
-   /* 
+
     #hamburguer {
         background-color: transparent;
-        color: #ffffff;
+        color: #000000;
         border: none;
-        font-size: 30px;
+        font-size: 34px;
         position: fixed;
-        right: 10px;
-        top: 127px;
+        right: 30px;
+        top: 30px;
     } 
+    
     #background-menu {
-        width: 50px;
-        height: 700px;
-        background-color: #1E1E1E;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        width: 40%;
+        height: 850px;
+        background-color: #605b5be8;
+        border-radius: 40px;
         position: fixed;
         right: 0;
-        border-radius: 50px;
-    
     }
-    
+
+    ul {
+        list-style: none;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        width: 90%;
+        font-size: 25px;
+    }
+
+    li {
+        margin-bottom: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    li:hover {
+        background-color: #143d562e;
+        padding: 8px;
+        border: transparent;
+        border-radius: 50px;
+
+    }
+
+    .options {
+        padding-top: 2px;
+    }
+    .options:hover {
+        background-color: #f27b35;
+        padding: 15px;
+    }
+    /*
     .menus {
         display: flex;
         flex-direction: column;
