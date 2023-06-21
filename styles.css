@@ -10,6 +10,18 @@
     font-family: 'Lobster Two', cursive;
 }
 
+#hamburguer {
+    display: none;
+}
+
+#background-menu {
+    display: none;
+}
+
+#hamburguer:focus ~ #background-menu {
+    display: block;
+}
+
 @media screen and (max-width:768px)
 {
     header {
@@ -18,33 +30,37 @@
     }
     
     .logo-wrapper {
-        background-color: #143d56;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     #logo {
+        width: 180px;
+        height: 50px;
         display: block;
         margin-right: auto;
         margin-left: auto;
+        margin-top: 10px;
     }
 
     #hamburguer {
+        display: block;
         background-color: transparent;
         color: #000000;
         border: none;
         font-size: 34px;
         position: fixed;
         right: 30px;
-        top: 30px;
+        top: 10px;
     } 
     
     #background-menu {
-        width: 40%;
-        height: 850px;
+        width: 50%;
+        height: 720px;
         background-color: #605b5be8;
         border-radius: 40px;
         position: fixed;
         right: 0;
+        margin-bottom: 70px;
     }
 
     ul {
@@ -53,21 +69,22 @@
         margin-bottom: 20px;
         margin-left: 15px;
         width: 90%;
-        font-size: 25px;
+        font-size: 22px;
     }
 
     li {
         margin-bottom: 20px;
         color: #ffffff;
         text-align: center;
+        cursor: pointer;
     }
 
-    li:hover {
-        background-color: #143d562e;
+    li:hover, li::selection {
+        background-color:  #f27b35;
         padding: 8px;
         border: transparent;
         border-radius: 50px;
-
+        box-shadow: 3px 3px 3px #000000;
     }
 
     .options {
@@ -106,7 +123,9 @@
     /* **section -principal-image** */
     .principal-image {
         width: 100%;
-        height: 360px;
+        height: 300px;
+
+        margin-top: 20%;
     }
 
     /* **main-body** */
@@ -168,24 +187,32 @@
         left: 150px;
         padding: 50px 0 0 75px;
     }
-
+    /*
     .options2{
         font-size: 16px;
         margin-bottom: 10px;
-    }
+    }*/
 
     /* **footer** */
     footer {
         background-color: #f27b35;
         width: 100%;
-        padding: 15px;
+        height: 70px;
+        padding: 12px;
+        margin-top: 15px;
     }
     .footer-main {
-        width: 600px;
+        width: 100%;
         display: block;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .text-footer {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 10px;
+        margin-bottom: 8px;
     }
 }
