@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
     <title>PR Serviços</title>
 </head>
+
 <body>
     <header>
         <div class="logo-wrapper">
-            <img src="./assets/9logo.svg" alt="logo" id="logo" id="top"/>
+            <img src="./assets/9logo.svg" alt="logo" id="logo" id="top" />
         </div>
-        
+
         <button id="hamburguer">&#9776;</button>
-        
+        <!--<button id="fecho-hamburguer">&#9747;</button>-->
+
         <div id="background-menu">
             <ul>
-                <li>Início</li>
-                <li>Quem Somos</li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#about">Quem Somos</a></li>
                 <li>Contatos</li>
             </ul>
 
@@ -32,23 +35,27 @@
                 <li class="options">Automação Predial e Residencial</li>
                 <li class="options">Controle de Acesso</li>
             </ul>
-            
+
         </div>
     </header>
 
     <section>
-        <img src="./assets/10foto-principal.jpg" alt="principal-imagem" class="principal-image"/><!--**Fazer CARROCEL**-->
+        <img src="./assets/10foto-principal.jpg" alt="principal-imagem"
+            class="principal-image" /><!--**Fazer CARROCEL**-->
     </section>
-    <!--
-    <main>
+    
+    <main id="about">
         <h2>Quem Somos</h2>
-        <div class="paragraph-principal">
+        <div id="paragraph-principal">
             <p class="paragraph">
-                A PR SERVIÇOS atua nas áreas de Elétrica e Telecominucações em condomínos, empresas e residências. 
-                Compreendemos que seu patrimônio é importante pra sua tranquilidade e fazemos isso com total comprometimento. 
-                Nosso objetivo é oferecer aos nossos clientes soluções preventivas e de custo acessível, disponibilizando a 
-                proteção necessária e garantindo aos nossos clientes mais segurança, atenuando os riscos relativos à segurança 
-                de seu patrimônio.
+                A PR SERVIÇOS atua nas áreas de Elétrica e Telecominucações em condomínos, 
+                empresas e residências.
+                Compreendemos que seu patrimônio é importante pra sua tranquilidade e fazemos 
+                isso com total
+                comprometimento.
+                Nosso objetivo é oferecer aos nossos clientes soluções preventivas e de custo 
+                acessível, disponibilizando a proteção necessária e garantindo aos nossos clientes 
+                mais segurança, atenuando os riscos relativos à segurança de seu patrimônio.
             </p>
 
             <p class="paragraph" id="title">Missão:</p>
@@ -57,13 +64,16 @@
 
             <p class="paragraph" id="title2">Valores:</p>
 
-            <p class="paragraph">“Priorizamos um atendimento de qualidade nos serviços, fornecendo garantias na manutenção e vendas 
+            <p class="paragraph">
+                “Priorizamos um atendimento de qualidade nos serviços, fornecendo garantias na
+                manutenção e vendas
                 de equipamentos.
             </p>
         </div>
+        
         <h2>Prestação de Serviços</h2>
-        <div class="principals-services-options">
-            <ul>
+        <div id="principals-services-options">
+            <ul id="options2">
                 <li class="options2">Elétrica</li>
                 <li class="options2">Telefonia</li>
                 <li class="options2">Antenas/TV Coletiva</li>
@@ -75,188 +85,46 @@
                 <li class="options2">Controle de Acesso</li>
             </ul>
         </div>
+        
+        <a href="#top"><img src="./assets/de-volta-ao-topo.png" alt="button-come-back-for-top" id="come-back-top" /></a>
+        
+        <a href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre..."><img src="./assets/whatsapp.svg" alt="whatsapp-icon" id="icos-social-networking1"/></a>
+        <a href="https://www.instagram.com/prservicosesolucoes/"><img src="./assets/instagram.svg" alt="instagram-icon"  id="icos-social-networking2"/></a>
+        <!--
+        <section class="call-center">
+            <div class="titles">
+                <h5>Central de atendimento</h5>
+                <h5>Horário de Fucionamento</h5>
+            </div>
 
-        <a href="#top"><img src="./assets/de-volta-ao-topo.png" alt="button-come-back-for-top" id="come-back-top"/></a>
+            <div class="numbers">
+                <img src="./assets/whatsapp.svg" alt="whatsapp-icon"/>
+                <p>(13) 98816-4265</p>
+
+                <ul>
+                    <li>Seg., Ter., Qui. e Sex.:
+                    <br><br>
+                    09:00 – 18:00</li>
+                    <br><br>
+                    <li>Qua. e Sáb.:<br>
+                    09:00 – 17:00</li>
+                    <br>
+                    <li>Dom.: Fechado</li>
+                </ul>
+            </div> 
+        </section>
+        -->
     </main>
-
-    <section class="call-center">
-        <div class="titles">
-            <h5>Central de atendimento</h5>
-            <h5>Horário de Fucionamento</h5>
-        </div>
-
-        <div class="numbers">
-            <img src="./assets/whatsapp.svg" alt="whatsapp-icon"/>
-            <p>(13) 98816-4265</p>
-
-            <ul>
-                <li>Seg., Ter., Qui. e Sex.:
-                <br><br>
-                09:00 – 18:00</li>
-                <br><br>
-                <li>Qua. e Sáb.:<br>
-                09:00 – 17:00</li>
-                <br>
-                <li>Dom.: Fechado</li>
-            </ul>
-        </div>
-    </section>
-
-    <img src="./assets/whatsapp.svg" alt="whatsapp-icon"/>
-    <img src="./assets/instagram.svg" alt="instagram-icon"/>
--->
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-    <br><br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Perferendis labore optio quos itaque, voluptatum tempora quisquam. 
-        Alias praesentium voluptatem quas laboriosam esse expedita laudantium 
-        officia velit quasi! Adipisci, modi praesentium.
-    </p>
-
+    
     <footer>
         <div class="footer-main">
-                <p class="text-footer">CNPJ:  37.974.586/0001-03</p>
-                
-                <p class="text-footer"> CNAE:  95.12-6-00 Reparação e manutenção de equipamentos de comunicação</p>
-                
-                <p class="text-footer">© 2023 PR SERVIÇOS. Todos os direitos reservados.</p>
+            <p class="text-footer">CNPJ: 37.974.586/0001-03</p>
+
+            <p class="text-footer"> CNAE: 95.12-6-00 Reparação e manutenção de equipamentos de comunicação</p>
+
+            <p class="text-footer">© 2023 PR SERVIÇOS. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
+
 </html>

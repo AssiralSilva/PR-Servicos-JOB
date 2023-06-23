@@ -17,6 +17,10 @@
 #background-menu {
     display: none;
 }
+/*
+#fecho-hamburguer {
+    display: none;
+}*/
 
 #hamburguer:focus ~ #background-menu {
     display: block;
@@ -34,18 +38,18 @@
     }
 
     #logo {
-        width: 180px;
-        height: 50px;
+        width: 170px;
+        height: 40px;
         display: block;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     #hamburguer {
         display: block;
         background-color: transparent;
-        color: #000000;
+        color: #f27b35;
         border: none;
         font-size: 34px;
         position: fixed;
@@ -55,12 +59,26 @@
     
     #background-menu {
         width: 50%;
-        height: 720px;
+        height: 450px;
         background-color: #605b5be8;
-        border-radius: 40px;
+        border-radius: 40px 0 0 40px;
         position: fixed;
         right: 0;
         margin-bottom: 70px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    #background-menu::-webkit-scrollbar {
+        width: 10px;
+        background-color: #1e1e1e78;
+        border-radius: 10px;
+    }
+
+    #background-menu::-webkit-scrollbar-thumb {
+        background-color: #f27b35;
+        border-radius: 10px;
+        height: 50px;
     }
 
     ul {
@@ -69,7 +87,8 @@
         margin-bottom: 20px;
         margin-left: 15px;
         width: 90%;
-        font-size: 22px;
+        font-size: 18px;
+        transition: all 0.5s;
     }
 
     li {
@@ -79,12 +98,16 @@
         cursor: pointer;
     }
 
-    li:hover, li::selection {
+    li:hover{
         background-color:  #f27b35;
         padding: 8px;
         border: transparent;
         border-radius: 50px;
         box-shadow: 3px 3px 3px #000000;
+    }
+
+    li:active {
+        text-decoration: none;
     }
 
     .options {
@@ -94,37 +117,11 @@
         background-color: #f27b35;
         padding: 15px;
     }
-    /*
-    .menus {
-        display: flex;
-        flex-direction: column;
-        margin-right: 150px;
-    }
-    
-    #menu1 {
-        margin-left: 10px;
-    }
-    
-    #menu2 {
-        margin-right: 0;
-    }
-    
-    .options {
-        list-style: none;
-        background-color: #1E1E1E88;
-        margin-bottom: 8px;
-        border: transparent 1px;
-        border-radius: 100px;
-        width: 180px;
-        height: 25px;
-        text-align: center;
-    }
-*/   
+     
     /* **section -principal-image** */
     .principal-image {
         width: 100%;
         height: 300px;
-
         margin-top: 20%;
     }
 
@@ -132,13 +129,14 @@
 
     main{
         background-color: #605b5b36;
+        height: 3000px;
     }
 
     #come-back-top {
         width: 36px;
         height: 36px;
         position: fixed;
-        bottom: 150px;
+        bottom: 350px;
         left: 15px;
     }
 
@@ -152,15 +150,15 @@
         padding-top: 70px;
     }
 
-    .paragraph-principal {
+    #paragraph-principal {
         background-color: #f27b35;
-        padding: 30px;
+        padding: 15px;
         width: 85%;
-        height: 460px;
+        height: 500px;
         border: transparent;
         border-radius: 20px 0;
         margin-left: 8px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
 
     .paragraph {
@@ -176,22 +174,46 @@
         font-size: 23px;
     }
 
-    .principals-services-options {
-        background-color: #1e1e1e;
-        color: #f27b35;
-        width: 300px;
-        height: 415px;
-        border: transparent;
-        border-radius: 20px 0;
-        position: relative;
-        left: 150px;
-        padding: 50px 0 0 75px;
+    #principals-services-options, #options2, .options2 {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    /*
-    .options2{
-        font-size: 16px;
-        margin-bottom: 10px;
-    }*/
+
+    #principals-services-options {
+        width: 80%;
+        border-radius: 40px 0 40px 0;
+        background: #1e1e1e;
+        margin-bottom: 20px;
+        padding: 35px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+    .options2 {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 35px;
+        text-align: left;
+    }
+
+    #icos-social-networking1{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        left: 15px;
+        bottom: 200px;
+    }
+
+    #icos-social-networking2{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        left: 15px;
+        bottom: 140px;
+    }
+
 
     /* **footer** */
     footer {
@@ -200,6 +222,8 @@
         height: 70px;
         padding: 12px;
         margin-top: 15px;
+        position: fixed;
+        bottom: 0;
     }
     .footer-main {
         width: 100%;
