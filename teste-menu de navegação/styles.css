@@ -1,7 +1,7 @@
-* {
+body,
+ul {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 
 a {
@@ -14,16 +14,13 @@ a:hover {
   background: rgba(0, 0, 0, 0.05);
 }
 
-.logo-image {
-  width: 115px;
-  height: 38px;
-}
-
-.image-of-a-satellite-dish {
-  width: 45px;
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 #header {
+  box-sizing: border-box;
   height: 70px;
   padding: 1rem;
   display: flex;
@@ -47,11 +44,11 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #menu {
     display: block;
     position: absolute;
-    width: 60%;
+    width: 100%;
     top: 70px;
     right: 0px;
     background: #e7e7e7;

@@ -8,134 +8,98 @@
     <title>PR Serviços</title>
 </head>
 
-<body>
-    <header>
-        <div class="logo-wrapper">
-            <img src="./assets/9logo.svg" alt="logo" id="logo" id="top" />
-        </div>
+    <body>
+        <header id="header">
+            <div class="wrapping-logo">
+                <a href="index.html">
+                    <img src="./assets/img/logo.svg" alt="logo-image" class="logo-image">
 
-        <button id="hamburguer">&#9776;</button>
-        <!--<button id="fecho-hamburguer">&#9747;</button>-->
-
-        <div id="background-menu">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#about">Quem Somos</a></li>
-                <li><a href="#titles">Contatos</a></li>
-            </ul>
-
-            <ul>
-                <li class="options">Elétrica</li>
-                <li class="options">Telefonia</li>
-                <li class="options">Antenas/TV Coletiva</li>
-                <li class="options">Interfone</li>
-                <li class="options">CFTV</li>
-                <li class="options">Cabeamento Estruturado</li>
-                <li class="options">Venda e Instalação de Sistema Solar</li>
-                <li class="options">Automação Predial e Residencial</li>
-                <li class="options">Controle de Acesso</li>
-            </ul>
-
-        </div>
-    </header>
-
-    <section>
-        <img src="./assets/10foto-principal.jpg" alt="principal-imagem"
-            class="principal-image" /><!--**Fazer CARROCEL**-->
-    </section>
-
-    <main id="about">
-        <h2>Quem Somos</h2>
-        <div id="paragraph-principal">
-            <p class="paragraph">
-                A PR SERVIÇOS atua nas áreas de Elétrica e Telecominucações em condomínos,
-                empresas e residências.
-                Compreendemos que seu patrimônio é importante pra sua tranquilidade e fazemos
-                isso com total
-                comprometimento.
-                Nosso objetivo é oferecer aos nossos clientes soluções preventivas e de custo
-                acessível, disponibilizando a proteção necessária e garantindo aos nossos clientes
-                mais segurança, atenuando os riscos relativos à segurança de seu patrimônio.
-            </p>
-
-            <p class="paragraph" id="title">Missão:</p>
-
-            <p class="paragraph">Fornecer serviços e produtos para o mercado da Baixada Santista.</p>
-
-            <p class="paragraph" id="title2">Valores:</p>
-
-            <p class="paragraph">
-                “Priorizamos um atendimento de qualidade nos serviços, fornecendo garantias na
-                manutenção e vendas
-                de equipamentos.
-            </p>
-        </div>
-
-        <h2>Prestação de Serviços</h2>
-        <div id="principals-services-options">
-            <ul id="options2">
-                <li class="options2">Elétrica</li>
-                <li class="options2">Telefonia</li>
-                <li class="options2">Antenas/TV Coletiva</li>
-                <li class="options2">Interfone</li>
-                <li class="options2">CFTV</li>
-                <li class="options2">cabeamento Estruturado</li>
-                <li class="options2">Venda e Instalação de Sistema Solar</li>
-                <li class="options2">Automação Predial e Residencial</li>
-                <li class="options2">Controle de Acesso</li>
-            </ul>
-        </div>
-
-        <a href="#top"><img src="./assets/de-volta-ao-topo.png" alt="button-come-back-for-top" id="come-back-top" /></a>
-
-        <a
-            href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre..."><img
-                src="./assets/whatsapp.svg" alt="whatsapp-icon" id="icos-social-networking1" /></a>
-        <a href="https://www.instagram.com/prservicosesolucoes/"><img src="./assets/instagram.svg" alt="instagram-icon"
-                id="icos-social-networking2" /></a>
-
-        <section class="call-center">
-            <div class="titles">
-                <h5 id="title3">Central de atendimento</h5>
-                <h5>Horário de Fucionamento</h5>
-            </div>
-
-            <div class="numbers">
-                <a
-                    href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre...">
-                    <img src="./assets/whatsapp.svg" alt="whatsapp-icon" class="whatsapp-icons" />
+                    <img src="./assets/img/antena logo.svg" alt="image-of-a-satellite-dish" class="image-of-a-satellite-dish">
                 </a>
-                <p class="tel"><a
-                        href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre..."
-                        id="tel">(13) 98816-4265</a></p>
-
-
-                <ul class="days-week">
-                    <li class="days">
-                        Seg., Ter., Qui. e Sex.:
-                        <br><br>
-                        09:00 – 18:00
-                    </li>
-                    <br><br>
-                    <li class="days">Qua. e Sáb.:<br>
-                        09:00 – 17:00</li>
-                    <br>
-                    <li class="days">Dom.: Fechado</li>
-                </ul>
             </div>
-        </section>
 
-    </main>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
 
-    <footer>
-        <div class="footer-main">
-            <p class="text-footer">CNPJ: 37.974.586/0001-03</p>
 
-            <p class="text-footer"> CNAE: 95.12-6-00 Reparação e manutenção de equipamentos de comunicação</p>
+                <ul id="menu" role="menu">
+                    <li>
+                        <a href="index.html">
+                            Início
+                        </a>
+                    </li>
 
-            <p class="text-footer">© 2023 PR SERVIÇOS. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-</body>
+                    <li>
+                        <a href="/">
+                            Quem Somos</a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Contatos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Elétrica
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Telefonia
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Antenas / Tv Coletiva
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Interfone
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            CFTV
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Cabeamento Estruturado
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Venda e Intalação de Sistema Solar
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Automação Predial e Residencial
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/">
+                            Controle de Acesso
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+
+    <script src="./script.js"></script>
 
 </html>

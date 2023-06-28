@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 300px;
+}
+
+.image-of-a-satellite-dish {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: aqua;
+}
+
+/* --menu-responsivo-- */
+
+@media screen and (max-width:768px){
+    .logo-image {
+        width: 200px;
+    }
+    
+    .image-of-a-satellite-dish {
+        width: 60px;
+    }
+}
