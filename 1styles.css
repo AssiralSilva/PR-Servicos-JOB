@@ -1,0 +1,281 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Diphylleia', serif;
+  font-family: 'Grape Nuts', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+a {
+  color: #4375d9;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.logo-image {
+  width: 115px;
+  height: 38px;
+  background-color: none;
+}
+
+.image-of-a-satellite-dish {
+  width: 50px;
+  margin-top: -2rem;
+}
+
+#header {
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e7e7e7;
+  margin-bottom: 2rem;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+/* **main-body** */
+
+main{
+  background-color: #605b5b36;
+}
+
+#come-back-top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 100px;
+  left: 15px;
+}
+
+h2{
+  width: 330px;
+  font-size: 40px;
+  text-align: center;
+  color: #1e1e1e;
+  display: block;
+  margin: 0 auto 35px auto;
+  padding-top: 70px;
+}
+
+#paragraph-principal, #paragraph-principal2 {
+  background-color: #f27b35;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.paragraph {
+  color: #1e1e1e;
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.company-name {
+  font-family: 'Dancing Script', cursive;
+}
+
+.span-of-paragraph-principal {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#title, #title2 {
+  text-align: center;
+  color: #143d56;
+  font-size: 23px;
+}
+
+#principals-services-options, #options2, .options2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#principals-services-options {
+  width: 84%;
+  border-radius: 40px 0 40px 0;
+  background: #1e1e1e;
+  margin-bottom: 20px;
+  padding: 35px;
+  position: relative;
+  left: 15%;
+  z-index: -1;
+}
+
+.options2 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: end;
+  font-size: 21px;
+  line-height: normal;
+  color: #f27b35;
+}
+
+#icos-social-networking1{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  left: 15px;
+  bottom: 215px;
+}
+
+#icos-social-networking2{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  left: 15px;
+  bottom: 160px;
+}
+
+#call-center{
+  margin-top: 1rem;
+  width: 100%;
+  height: 20%;
+  background: #ffffff;
+  padding-bottom: 2rem;
+}
+
+.title-opening-hours {
+  background-color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 6px 2px #605b5b;
+}
+
+h5 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.days-week {
+  text-align: center;
+}
+
+#days-week {
+  font-size: 1.8rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #f27b35;
+  width: 100%;
+  height: 10rem;
+  padding: 20px;
+}
+#middle-of-the-footer {
+  width: 100%;
+
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 60%;
+    top: 70px;
+    right: 0px;
+    background: #e7e7e7;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    border-radius: 10px;
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
