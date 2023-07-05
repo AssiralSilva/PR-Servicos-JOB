@@ -87,14 +87,13 @@ a:hover {
   display: flex;
   gap: 5rem;
   font-size: 1.7rem;
-  margin-right: 0.5rem;
+  margin-right: 2.5rem;
   justify-content: center;
-  margin-top: -0.5rem;
+  margin-top: -.5rem;
 }
 
 .menu-in-desktop {
-  background: #f27b35;
-  padding: .5rem;
+  font-weight: 600;
 }
 
 .more-services {
@@ -104,9 +103,16 @@ a:hover {
 .principal-button-in-desktop-format {
   width: 11rem;
   height: 3rem;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   display: block;
   font-size: 1.5rem;
+  background-color: #f27b35;
+  color: #000000;
+  padding: 0.5rem;
+  border: solid #f27b35;
+  border-radius: 1rem;
+  height: 4rem;
+  box-shadow: 0.3rem 0.3rem #605b5b;
 }
 
 .principal-button-in-desktop-format:focus {
@@ -115,6 +121,8 @@ a:hover {
   margin-top: 2rem;
   display: block;
   font-size: 1.5rem;
+  padding: .1rem;
+  box-shadow: none;
 }
 
 .principal-button-in-desktop-format:focus ~ .more-services {
@@ -145,6 +153,7 @@ a:hover {
 
 main{
   background-color: #605b5b36;
+  font-family: 'Diphylleia', serif;
 }
 
 #come-back-top {
@@ -167,7 +176,7 @@ h2{
 
 #paragraph-principal, #paragraph-principal2 {
   background-color: #f27b35;
-  padding: 15px;
+  padding: 2.5rem;
   width: 100%;
   text-align: center;
   margin-bottom: 35px;
@@ -177,11 +186,17 @@ h2{
   color: #1e1e1e;
   font-size: 2rem;
   margin-bottom: 18px;
+  font-family: 'Diphylleia', serif;
+}
+
+span {
+  font-family: 'Diphylleia', serif;
 }
 
 .span-of-paragraph-principal {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 2rem;
+  font-family: 'Diphylleia', serif;
 }
 
 #title, #title2 {
@@ -194,16 +209,17 @@ h2{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Diphylleia', serif;
 }
 
 #principals-services-options {
-  width: 75%;
+  width: 64%;
   border-radius: 40px 0 40px 0;
   background: #1e1e1e;
   margin-bottom: 20px;
   padding: 35px;
   position: relative;
-  right: -22%;
+  right: -34%;
   z-index: -1;
 }
 
