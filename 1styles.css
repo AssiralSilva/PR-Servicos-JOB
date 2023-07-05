@@ -6,6 +6,7 @@
   padding: 0px;
   list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: 'Dancing Script', cursive;
@@ -13,6 +14,7 @@
   font-family: 'Grape Nuts', cursive;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Lobster Two', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -20,51 +22,86 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-
-a {
-  color: #4375d9;
-  text-decoration: none;
+    width: 80vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1rem 0.5rem 0.5rem .5rem #605b5ba7;
 }
 
 a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.logo-image {
-  width: 115px;
-  height: 38px;
-  background-color: none;
-}
-
-.image-of-a-satellite-dish {
-  width: 50px;
-  margin-top: -2rem;
+  text-decoration: none;
 }
 
 #header {
-  height: 70px;
+  height: 22rem;
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #e7e7e7;
   margin-bottom: 2rem;
 }
 
-#menu {
+.wrappering-logo {
   display: flex;
-  list-style: none;
-  gap: 0.5rem;
+  justify-content: center;
 }
 
-#menu a {
+
+.logo-image {
+  width: 30rem;
+}
+
+.image-of-a-satellite-dish {
+  width: 70px;
+  height: 92px;
+}
+
+.d-block {
+  height: 42rem;
+}
+
+#nav {
+    width: 90%;
+    height: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#menu {
+  display: none;
+}
+
+#principal-button-in-desktop-format {
+  display: flex;
+  justify-content: center;
+}
+
+.more-services {
+  display: none;
+}
+
+.principal-menu {
+  width: 40rem;
+  display: flex;
+  gap: 5rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  margin-right: 0;
+}
+
+.principal-button-in-desktop-format {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.principal-button-in-desktop-format:focus ~ .more-services {
   display: block;
-  padding: 0.5rem;
-  font-size: 2rem;
-  text-decoration: none;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 #btn-mobile {
@@ -81,8 +118,8 @@ main{
   width: 40px;
   height: 40px;
   position: fixed;
-  bottom: 100px;
-  left: 15px;
+  bottom: 90px;
+  right: 15px;
 }
 
 h2{
@@ -109,10 +146,6 @@ h2{
   margin-bottom: 18px;
 }
 
-.company-name {
-  font-family: 'Dancing Script', cursive;
-}
-
 .span-of-paragraph-principal {
   display: block;
   margin-bottom: 5px;
@@ -131,13 +164,13 @@ h2{
 }
 
 #principals-services-options {
-  width: 84%;
+  width: 75%;
   border-radius: 40px 0 40px 0;
   background: #1e1e1e;
   margin-bottom: 20px;
   padding: 35px;
   position: relative;
-  left: 15%;
+  right: -22%;
   z-index: -1;
 }
 
@@ -154,7 +187,7 @@ h2{
   width: 40px;
   height: 40px;
   position: fixed;
-  left: 15px;
+  right: 15px;
   bottom: 215px;
 }
 
@@ -162,7 +195,7 @@ h2{
   width: 40px;
   height: 40px;
   position: fixed;
-  left: 15px;
+  right: 15px;
   bottom: 160px;
 }
 
@@ -210,16 +243,61 @@ footer {
   width: 100%;
 
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  
 }
 
 .footer-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 10px;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 
+
 @media (max-width: 768px) {
+  body {
+    width: 100vw;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  #principal-button-in-desktop-format {
+    display: none;
+  }
+
+  a {
+    color: #4375d9;
+    font-family: 'Lobster Two', cursive;
+    
+  }
+  
+  a:hover {
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+  }
+
+  #header {
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .wrapping-logo {
+    background: none;
+    padding-top: 1rem;
+  }
+
+  .logo-image {
+    width: 134px;
+    height: 54px;
+    padding-top: 1rem;
+  }
+  
+  .image-of-a-satellite-dish {
+    width: 50px;
+  }
+
   #menu {
     display: block;
     position: absolute;
@@ -268,6 +346,15 @@ footer {
     transition: 0.3s;
     position: relative;
   }
+
+  #nav {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+  }
+
   #nav.active #hamburger {
     border-top-color: transparent;
   }

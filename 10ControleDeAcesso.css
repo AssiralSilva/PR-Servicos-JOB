@@ -8,11 +8,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Diphylleia', serif;
-    font-family: 'Grape Nuts', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Roboto', sans-serif;
   }
   
   html {

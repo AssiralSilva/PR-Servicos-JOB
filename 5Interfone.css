@@ -8,11 +8,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Diphylleia', serif;
-    font-family: 'Grape Nuts', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Roboto', sans-serif;
   }
   
   html {
@@ -110,7 +106,8 @@
     margin-left: auto;
     text-align: center;
     margin-bottom: 35px;
-    font-family: 'Diphylleia', serif;
+    line-height: 2.5rem;
+    font-weight: 500;
   }
   
   .paragraph {
@@ -140,10 +137,6 @@
     border: #f27b35;
     background-color: #1e1e1e;
     color: #f27b35;
-  }
-  
-  .company-name {
-    font-family: 'Dancing Script', cursive;
   }
   
   .span-of-paragraph-principal {
@@ -183,11 +176,9 @@
     width: 100%;
   
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
   }
   
   .footer-text {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 10px;
     margin-bottom: 8px;
   }
