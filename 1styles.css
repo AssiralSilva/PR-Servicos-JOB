@@ -58,6 +58,47 @@ a:hover {
   height: 42rem;
 }
 
+.slide-text {
+  position: absolute;
+  color: rgb(242, 123, 53);
+  bottom: 2rem;
+  right: 5rem;
+  font-family: Diphylleia, serif;
+  font-weight: 600;
+  font-size: 6rem;
+}
+
+#slide-text1 {
+  position: absolute;
+  color: #021602;
+  text-shadow: .5rem .5rem #605b5ba7;
+  bottom: 3.5rem;
+  right: 5rem;
+  font-family: 'Diphylleia', serif;
+  font-weight: 600;
+  font-size: 6rem;
+  }
+
+#slide-text2 {
+  position: absolute;
+  color: #1e1e1e;
+  bottom: -0.5rem;
+  right: 2rem;
+  font-family: 'Diphylleia', serif;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+#slide-text3 {
+  position: absolute;
+  color: #1e1e1e;
+  bottom: 3.5rem;
+  right: 5rem;
+  font-family: 'Diphylleia', serif;
+  font-weight: 600;
+  font-size: 4.5rem;
+}
+
 #nav {
     width: 90%;
     height: 70px;
@@ -79,8 +120,6 @@ a:hover {
   justify-content: center;
   align-items: stretch;
 }
-
-
 
 .principal-menu {
   width: 50rem;
@@ -125,6 +164,10 @@ a:hover {
   box-shadow: none;
 }
 
+.principal-button-in-desktop-format:hover {
+  box-shadow: 0.5rem 0.5rem rgba(0,123,255,.5);
+}
+
 .principal-button-in-desktop-format:focus ~ .more-services {
   display: block;
   background-color: rgba(0, 0, 0, 0.25);
@@ -132,6 +175,7 @@ a:hover {
   position: absolute;
   right: 16rem;
   top: 16rem;
+  border-color: #f27b35;
 }
 
 .menu-in-desktop2 {
@@ -413,6 +457,10 @@ footer {
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+  .d-block{
+    height: 32rem;
   }
 
   #icos-social-networking1{
