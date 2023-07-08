@@ -149,20 +149,10 @@ a:hover {
   background-color: #f27b35;
   color: #000000;
   padding: 0.5rem;
-  border: solid transparent;
+  border: solid #f27b35;
   border-radius: 1rem;
   height: 4rem;
   box-shadow: 0.3rem 0.3rem #605b5b;
-}
-
-.principal-button-in-desktop-format:focus {
-  width: 11rem;
-  height: 3rem;
-  margin-top: 2rem;
-  display: block;
-  font-size: 1.5rem;
-  padding: .1rem;
-  box-shadow: none;
 }
 
 .principal-button-in-desktop-format:hover {
@@ -176,15 +166,15 @@ a:hover {
   position: absolute;
   right: 16rem;
   top: 16rem;
-  border-color: #f27b35;
 }
 
 .menu-in-desktop2 {
   line-height: 3rem;
   margin-bottom: 1rem;
   text-align: center;
-  padding: 1rem 1rem;
+  padding-bottom: 1rem;
   font-size: 1.8rem;
+  display: block;
 }
 
 .menu-in-desktop2:hover {
@@ -448,6 +438,48 @@ footer {
     box-shadow: none;
     width: auto;
     height: auto;
+  }
+
+  .slide-text {
+    position: absolute;
+    color: rgb(242, 123, 53);
+    bottom: 2rem;
+    right: 5rem;
+    font-family: Diphylleia, serif;
+    font-weight: 600;
+    font-size: 4rem;
+  }
+  
+  #slide-text1 {
+    position: absolute;
+    color: #021602;
+    text-shadow: .5rem .5rem #605b5ba7;
+    bottom: 3.5rem;
+    right: 5rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 5rem;
+    }
+  
+  #slide-text2 {
+    position: absolute;
+    color: #1e1e1e;
+    bottom: -0.5rem;
+    right: 2rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+  }
+  
+  #slide-text3 {
+    position: absolute;
+    color: #000000;
+    bottom: 1rem;
+    right: 5rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: .5rem .5rem #605b5ba7;
   }
 
   #nav.active #hamburger {

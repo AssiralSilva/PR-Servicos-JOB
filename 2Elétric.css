@@ -372,6 +372,7 @@ footer {
     visibility: hidden;
     overflow-y: hidden;
   }
+
   #nav.active #menu {
     border-radius: 10px;
     height: calc(100vh - 70px);
@@ -419,6 +420,48 @@ footer {
     box-shadow: none;
     width: auto;
     height: auto;
+  }
+
+  .slide-text {
+    position: absolute;
+    color: rgb(242, 123, 53);
+    bottom: 2rem;
+    right: 5rem;
+    font-family: Diphylleia, serif;
+    font-weight: 600;
+    font-size: 4rem;
+  }
+  
+  #slide-text1 {
+    position: absolute;
+    color: #021602;
+    text-shadow: .5rem .5rem #605b5ba7;
+    bottom: 3.5rem;
+    right: 5rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 3rem;
+    }
+  
+  #slide-text2 {
+    position: absolute;
+    color: #1e1e1e;
+    bottom: -0.5rem;
+    right: 2rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  
+  #slide-text3 {
+    position: absolute;
+    color: #000000;
+    bottom: 3.5rem;
+    right: 5rem;
+    font-family: 'Diphylleia', serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: .5rem .5rem #605b5ba7;
   }
 
   #nav.active #hamburger {
