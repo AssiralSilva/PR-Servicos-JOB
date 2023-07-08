@@ -91,12 +91,13 @@ a:hover {
 
 #slide-text3 {
   position: absolute;
-  color: #1e1e1e;
+  color: #000000;
   bottom: 3.5rem;
   right: 5rem;
   font-family: 'Diphylleia', serif;
   font-weight: 600;
   font-size: 4.5rem;
+  text-shadow: .5rem .5rem #605b5ba7;
 }
 
 #nav {
@@ -148,7 +149,7 @@ a:hover {
   background-color: #f27b35;
   color: #000000;
   padding: 0.5rem;
-  border: solid #f27b35;
+  border: solid transparent;
   border-radius: 1rem;
   height: 4rem;
   box-shadow: 0.3rem 0.3rem #605b5b;
@@ -179,12 +180,13 @@ a:hover {
 }
 
 .menu-in-desktop2 {
-  line-height: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    padding: 2rem 1rem;
-    font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
 }
+
 .menu-in-desktop2:hover {
   background-color: #605b5b;
 }
