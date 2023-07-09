@@ -169,12 +169,15 @@ a:hover {
 }
 
 .menu-in-desktop2 {
+  display: block;
   line-height: 3rem;
   margin-bottom: 1rem;
   text-align: center;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1.8rem;
-  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .menu-in-desktop2:hover {
@@ -415,6 +418,8 @@ footer {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    margin-right: 1rem;
+    outline: none;
   }
   #hamburger {
     border-top: 2px solid;

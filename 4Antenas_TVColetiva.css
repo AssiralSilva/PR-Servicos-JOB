@@ -396,6 +396,8 @@ footer {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    margin-right: 1rem;
+    outline: none;
   }
   #hamburger {
     border-top: 2px solid;

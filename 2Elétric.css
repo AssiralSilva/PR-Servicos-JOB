@@ -350,8 +350,9 @@ footer {
   }
 
   .logo-image {
-    width: 115px;
-    height: 38px;
+    width: 134px;
+    height: 54px;
+    padding-top: 1rem;
   }
   
   .image-of-a-satellite-dish {
@@ -397,6 +398,8 @@ footer {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    margin-right: 1rem;
+    outline: none;
   }
   #hamburger {
     border-top: 2px solid;
