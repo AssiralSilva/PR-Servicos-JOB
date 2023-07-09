@@ -36,8 +36,41 @@ body {
   padding: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 2rem;
+}
+
+#btn-mobile {
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  outline: none;
+  position: absolute;
+  right: 0;
+}
+
+.logo-image {
+  width: 235px;
+  height: 70px;
+  padding-top: 1rem;
+  
+}
+
+@media screen and (max-width:500px) {
+  #header {
+    justify-content: space-between;
+  }
+
+  .logo-image {
+    width: 134px;
+    height: 54px;
+    padding-top: 1rem;
+  }
 }
 
 /* NAV STYLES */
@@ -99,10 +132,6 @@ body {
 .wrappering-logo {
   display: flex;
   justify-content: center;
-}
-
-.logo-image {
-  width: 30rem;
 }
 
 .image-of-a-satellite-dish {
@@ -185,10 +214,6 @@ body {
   padding: 1rem;
   flex-direction: column;
   align-items: center;
-}
-
-#btn-mobile {
-  display: none;
 }
 
 /* **main-body** */
@@ -358,12 +383,6 @@ a {
   padding-top: 1rem;
 }
 
-.logo-image {
-  width: 134px;
-  height: 54px;
-  padding-top: 1rem;
-}
-
 .image-of-a-satellite-dish {
   width: 50px;
 }
@@ -373,17 +392,7 @@ a {
   margin: 0 1rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 }
-#btn-mobile {
-  display: flex;
-  padding: 0.5rem 1rem;
-  font-size: 1.6rem;
-  border: none;
-  background: none;
-  cursor: pointer;
-  gap: 0.5rem;
-  margin-right: 1rem;
-  outline: none;
-}
+
 #hamburger {
   border-top: 2px solid;
   width: 20px;
