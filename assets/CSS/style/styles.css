@@ -27,7 +27,6 @@ body {
   width: 90vw;
   height: 100vh;
   overflow-x: hidden;
-  box-shadow: 1rem 0.5rem 0.5rem 0.5rem #605b5ba7;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -80,8 +79,8 @@ body {
 }
 
 .logo-image {
-  width: 235px;
-  height: 70px;
+  width: 30rem;
+  height: 8rem;
   padding-top: 1rem;
   
 }
@@ -117,30 +116,6 @@ body {
   visibility: hidden;
   overflow-y: hidden;
 }
-
-#principal-button-in-desktop-format {
-  display: flex;
-  justify-content: center;
-}
-
-.principal-menu-in-desktop {
-  width: 50rem;
-  display: flex;
-  gap: 5rem;
-  font-size: 1.7rem;
-  margin-right: 2.5rem;
-  justify-content: center;
-  margin-top: -0.5rem;
-}
-
-.menu-in-desktop {
-  font-weight: 600;
-}
-
-.more-services {
-  display: none;
-}
-
 
 .wrappering-logo {
   display: flex;
@@ -196,37 +171,6 @@ body {
   font-weight: 600;
   font-size: 4.5rem;
   text-shadow: 0.5rem 0.5rem #605b5ba7;
-}
-
-.principal-button-in-desktop-format {
-  width: 11rem;
-  height: 3rem;
-  margin-top: 1.2rem;
-  display: block;
-  font-size: 1.5rem;
-  background-color: #f27b35;
-  color: #000000;
-  padding: 0.5rem;
-  border: solid #f27b35;
-  border-radius: 1rem;
-  height: 4rem;
-  box-shadow: 0.3rem 0.3rem #605b5b;
-}
-
-.principal-button-in-desktop-format:hover {
-  box-shadow: 0.5rem 0.5rem rgba(0, 123, 255, 0.5);
-}
-
-.principal-button-in-desktop-format:focus ~ .more-services {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.25);
-  z-index: 5;
-  position: absolute;
-  right: 16rem;
-  top: 16rem;
-  padding: 1rem;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* **main-body** */
@@ -391,7 +335,7 @@ a {
   font-family: "Lobster Two", cursive;
 }
 
-.wrapping-logo {
+.wrappering-logo {
   background: none;
   padding-top: 1rem;
 }
@@ -470,6 +414,10 @@ a {
     width: 100vw;
   }
 
+  .logo-image {
+    width: 16rem;
+  }
+
   #btn-mobile {
     font-size: 1rem;
   }
@@ -482,12 +430,12 @@ a {
     display: block;
   }
 
-  .d-block {
-    height: 32rem;
-  }
-
   #menu {
     right: 3.2rem;
+  }
+
+  .d-block {
+    height: 27rem;
   }
 }
 
@@ -497,8 +445,8 @@ a {
   }
 
   .logo-image {
-    width: 134px;
-    height: 54px;
+    width: 13.4rem;
+    height: 5.5rem;
     padding-top: 1rem;
   }
 
