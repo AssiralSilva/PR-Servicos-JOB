@@ -29,29 +29,38 @@
 <body>
     <div id="header">
         <div class="wrappering-logo">
-            <a href="index.html">
+            <a href="index.html" class="menu-link">
                 <img src="./assets/img/Logo/logo.svg" alt="logo-image" class="logo-image" />
                 <img src="./assets/img/Logo/antena logo.svg" alt="logo-image" class="image-of-a-satellite-dish">
             </a>
         </div>
 
         <nav id="nav">
+            <a href="index.html" id="inicio-opcao">
+                Início
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre..." target="_blank" id="contate-nos-opcao">
+                Contate-nos
+            </a>
+
+
             <button id="btn-mobile" aria-haspopup="true">
-                Menu
+                <span class="span">Serviços</span>
                 <span id="hamburger"></span>
             </button>
 
 
             <ul id="menu">
                 <li>
-                    <a href="#">
+                    <a href="#" class="inicio-opcao">
                         Início
                     </a>
                 </li>
 
                 <li>
                     <a href="https://api.whatsapp.com/send?phone=5513988164265&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre..."
-                        target="_blank">
+                        target="_blank" class="contate-nos-opcao">
                         Contate-nos
                     </a>
                 </li>
