@@ -130,7 +130,7 @@ body {
 /* **section -principal-image** */
 .principal-image {
   width: 100%;
-  height: 25rem;
+  height: 40rem;
   margin-top: 8%;
   margin-bottom: 5rem;
 }
@@ -157,6 +157,7 @@ h2 {
   display: block;
   margin: 0 auto 35px auto;
   padding-top: 70px;
+  font-family: "Diphylleia", serif;
 }
 
 #paragraph-principal,
@@ -166,6 +167,7 @@ h2 {
   width: 100%;
   text-align: center;
   margin-bottom: 35px;
+  font-weight: 600;
 }
 
 .paragraph {
@@ -237,34 +239,6 @@ span {
   bottom: 160px;
 }
 
-#call-center {
-  margin-top: 1rem;
-  width: 100%;
-  height: 20%;
-  background: #ffffff;
-  padding-bottom: 2rem;
-}
-
-.title-opening-hours {
-  background-color: #000000;
-  text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 6px 2px #605b5b;
-}
-
-h5 {
-  color: #ffffff;
-  font-size: 2rem;
-}
-
-.days-week {
-  text-align: center;
-}
-
-#days-week {
-  font-size: 1.8rem;
-}
-
 li {
   display: flex;
   flex-direction: column;
@@ -280,7 +254,7 @@ li {
   height: 5rem;
   font-size: 2rem;
   border-radius: 5rem;
-  color: #1e1e1e;
+  color: #ffffff;
   background-color: #f27b35;
   border: transparent;
   text-align: center;
@@ -387,12 +361,6 @@ a {
     justify-content: space-between;
   }
 
-  .logo-image {
-    width: 13.4rem;
-    height: 5.5rem;
-    padding-top: 1rem;
-  }
-
   #menu {
     right: 1.7rem;
   }
@@ -405,8 +373,12 @@ a {
     border-radius: 7px;
   }
 
-  .span {
+  .span-servicos {
     display: none;
+  }
+
+  .principal-image {
+    height: 30rem;
   }
 
   #icos-social-networking1 {

@@ -130,7 +130,7 @@ body {
 /* **section -principal-image** */
 .principal-image {
   width: 100%;
-  height: 25rem;
+  height: 40rem;
   margin-top: 8%;
   margin-bottom: 5rem;
 }
@@ -157,6 +157,7 @@ h2 {
   display: block;
   margin: 0 auto 35px auto;
   padding-top: 70px;
+  font-family: "Diphylleia", serif;
 }
 
 #paragraph-principal,
@@ -175,14 +176,11 @@ h2 {
   font-family: "Diphylleia", serif;
 }
 
-span {
-  font-family: "Diphylleia", serif;
-}
-
-.span-of-paragraph-principal {
+.span-of-paragraph {
   display: block;
   margin-bottom: 2rem;
   font-family: "Diphylleia", serif;
+  font-weight: 600;
 }
 
 #title,
@@ -280,7 +278,7 @@ li {
   height: 5rem;
   font-size: 2rem;
   border-radius: 5rem;
-  color: #1e1e1e;
+  color: #ffffff;
   background-color: #f27b35;
   border: transparent;
   text-align: center;
@@ -352,6 +350,17 @@ a {
   position: relative;
 }
 
+@media screen and (max-width:1000px) {
+  #btn-mobile {
+    right: 1rem;
+  }
+
+
+  #inicio-opcao, #contate-nos-opcao {
+    right: 15rem;
+  }
+}
+
 @media screen and (max-width:900px) {
   body {
     width: 100vw;
@@ -387,12 +396,6 @@ a {
     justify-content: space-between;
   }
 
-  .logo-image {
-    width: 13.4rem;
-    height: 5.5rem;
-    padding-top: 1rem;
-  }
-
   #menu {
     right: 1.7rem;
   }
@@ -405,8 +408,16 @@ a {
     border-radius: 7px;
   }
 
-  .span {
+  .span-servicos {
     display: none;
+  }
+
+  .principal-image {
+    height: 30rem;
+  }
+
+  .span-of-paragraph {
+    font-size: 1.5rem;
   }
 
   #icos-social-networking1 {
