@@ -10,12 +10,7 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Dancing Script", cursive;
-  font-family: "Diphylleia", serif;
-  font-family: "Grape Nuts", cursive;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Lobster Two", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 html {
@@ -138,53 +133,51 @@ body {
 /* **main-body** */
 main {
   background-color: #605b5b36;
-  font-family: "Diphylleia", serif;
-}
-
-#come-back-top {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 90px;
-  right: 15px;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 h2 {
   width: 330px;
-  font-size: 40px;
+  font-size: 5rem;
   text-align: center;
   color: #1e1e1e;
   display: block;
-  margin: 0 auto 35px auto;
+  margin: 0 auto 5rem auto;
   padding-top: 70px;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #paragraph-principal,
 #paragraph-principal2 {
   background-color: #f27b35;
-  padding: 2.5rem;
+  padding: 3rem;
   width: 100%;
   text-align: center;
   margin-bottom: 35px;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .paragraph {
   color: #1e1e1e;
   font-size: 2rem;
   margin-bottom: 18px;
-  font-family: "Diphylleia", serif;
-}
-
-span {
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
+  font-weight: 600;
+  text-align: justify;
 }
 
 .span-of-paragraph-principal {
   display: block;
   margin-bottom: 2rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
+}
+
+.span-title-principal-paragraph {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 #title,
@@ -200,7 +193,7 @@ span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #principals-services-options {
@@ -223,19 +216,27 @@ span {
   color: #f27b35;
 }
 
-#icos-social-networking1 {
+#come-back-top {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 15px;
+  bottom: 90px;
+  right: 30px;
+}
+
+#whatsapp-icon {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 30px;
   bottom: 215px;
 }
 
-#icos-social-networking2 {
+#instagram-icon {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 15px;
+  right: 30px;
   bottom: 160px;
 }
 
@@ -252,13 +253,13 @@ li {
   margin-bottom: 3.5rem;
   width: 15rem;
   height: 5rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 2rem;
-  color: #1e1e1e;
+  color: #ffffff;
   background-color: #f27b35;
   border: transparent;
   text-align: center;
-  padding: 1rem;
+  padding: 1.3rem;
 
 }
 
@@ -291,7 +292,7 @@ footer {
 
 a {
   color: #4375d9;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .wrappering-logo {
@@ -381,15 +382,7 @@ a {
     display: none;
   }
 
-  #icos-social-networking1 {
-    left: 15px;
-  }
-  
-  #icos-social-networking2 {
-    left: 15px;
-  }
-  
-  #come-back-top {
+  #whatsapp-icon, #instagram-icom, #come-back-top {
     left: 15px;
   }
 }

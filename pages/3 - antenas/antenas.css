@@ -10,12 +10,7 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Dancing Script", cursive;
-  font-family: "Diphylleia", serif;
-  font-family: "Grape Nuts", cursive;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Lobster Two", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 html {
@@ -138,7 +133,7 @@ body {
 /* **main-body** */
 main {
   background-color: #605b5b36;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #come-back-top {
@@ -157,13 +152,13 @@ h2 {
   display: block;
   margin: 0 auto 35px auto;
   padding-top: 70px;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #paragraph-principal,
 #paragraph-principal2 {
   background-color: #f27b35;
-  padding: 2.5rem;
+  padding: 5rem;
   width: 100%;
   text-align: center;
   margin-bottom: 35px;
@@ -174,17 +169,14 @@ h2 {
   color: #1e1e1e;
   font-size: 2rem;
   margin-bottom: 18px;
-  font-family: "Diphylleia", serif;
-}
-
-span {
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
+  text-align: justify;
 }
 
 .span-of-paragraph-principal {
   display: block;
-  margin-bottom: 2rem;
-  font-family: "Diphylleia", serif;
+  margin-bottom: 4rem;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #title,
@@ -200,7 +192,7 @@ span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #principals-services-options {
@@ -319,7 +311,7 @@ footer {
 
 a {
   color: #4375d9;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .wrappering-logo {

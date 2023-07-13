@@ -10,12 +10,7 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Dancing Script", cursive;
-  font-family: "Diphylleia", serif;
-  font-family: "Grape Nuts", cursive;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Lobster Two", cursive;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 html {
@@ -39,7 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 #inicio-opcao, #contate-nos-opcao {
@@ -82,7 +78,6 @@ body {
   width: 30rem;
   height: 8rem;
   padding-top: 1rem;
-  
 }
 
 /* NAV STYLES */
@@ -136,7 +131,7 @@ body {
   color: rgb(242, 123, 53);
   bottom: 2rem;
   right: 5rem;
-  font-family: Diphylleia, serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 6rem;
 }
@@ -147,7 +142,7 @@ body {
   text-shadow: 0.5rem 0.5rem #605b5ba7;
   bottom: 3.5rem;
   right: 5rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 6rem;
 }
@@ -157,7 +152,7 @@ body {
   color: #1e1e1e;
   bottom: -0.5rem;
   right: 2rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 5rem;
 }
@@ -167,7 +162,7 @@ body {
   color: #000000;
   bottom: 3.5rem;
   right: 5rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 4.5rem;
   text-shadow: 0.5rem 0.5rem #605b5ba7;
@@ -176,15 +171,7 @@ body {
 /* **main-body** */
 main {
   background-color: #605b5b36;
-  font-family: "Diphylleia", serif;
-}
-
-#come-back-top {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 90px;
-  right: 15px;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 h2 {
@@ -200,7 +187,7 @@ h2 {
 #paragraph-principal,
 #paragraph-principal2 {
   background-color: #f27b35;
-  padding: 2.5rem;
+  padding: 5rem;
   width: 100%;
   text-align: center;
   margin-bottom: 35px;
@@ -210,23 +197,20 @@ h2 {
   color: #1e1e1e;
   font-size: 2rem;
   margin-bottom: 18px;
-  font-family: "Diphylleia", serif;
-}
-
-span {
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
+  font-weight: 600;
 }
 
 .span-of-paragraph-principal {
   display: block;
   margin-bottom: 2rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #title,
 #title2 {
   text-align: center;
-  color: #143d56;
+  color: #ffffff;
   font-size: 23px;
 }
 
@@ -236,7 +220,7 @@ span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 #principals-services-options {
@@ -259,19 +243,27 @@ span {
   color: #f27b35;
 }
 
-#icos-social-networking1 {
+#come-back-top {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 15px;
+  bottom: 90px;
+  right: 30px;
+}
+
+#whatsapp-icon {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 30px;
   bottom: 215px;
 }
 
-#icos-social-networking2 {
+#instagram-icon {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 15px;
+  right: 30px;
   bottom: 160px;
 }
 
@@ -287,7 +279,6 @@ span {
   background-color: #000000;
   text-align: center;
   margin-bottom: 20px;
-  box-shadow: 6px 2px #605b5b;
 }
 
 h5 {
@@ -297,6 +288,10 @@ h5 {
 
 .days-week {
   text-align: center;
+} 
+
+.days-week li span {
+  font-weight: 600;
 }
 
 #days-week {
@@ -332,7 +327,7 @@ footer {
 
 a {
   color: #4375d9;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Arial Narrow', sans-serif;
 }
 
 .wrappering-logo {
@@ -372,7 +367,7 @@ a {
   color: rgb(242, 123, 53);
   bottom: 2rem;
   right: 5rem;
-  font-family: Diphylleia, serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 4rem;
 }
@@ -383,7 +378,7 @@ a {
   text-shadow: 0.5rem 0.5rem #605b5ba7;
   bottom: 3.5rem;
   right: 5rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 5rem;
 }
@@ -393,7 +388,7 @@ a {
   color: #1e1e1e;
   bottom: -0.5rem;
   right: 2rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 3.5rem;
 }
@@ -403,7 +398,7 @@ a {
   color: #000000;
   bottom: 1rem;
   right: 5rem;
-  font-family: "Diphylleia", serif;
+  font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
   font-size: 3rem;
   text-shadow: 0.5rem 0.5rem #605b5ba7;
@@ -462,19 +457,11 @@ a {
     border-radius: 7px;
   }
 
-  .span {
+  .span-servicos {
     display: none;
   }
 
-  #icos-social-networking1 {
-    left: 15px;
-  }
-  
-  #icos-social-networking2 {
-    left: 15px;
-  }
-  
-  #come-back-top {
+  #whatsapp-icon, #instagram-icon, #come-back-top {
     left: 15px;
   }
 }
