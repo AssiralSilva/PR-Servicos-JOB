@@ -389,8 +389,12 @@ a {
     right: 3.2rem;
   }
 
-  .d-block {
-    height: 27rem;
+  .principal-image {
+    width: 95%;
+    height: 30rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -442,7 +446,35 @@ a {
 }
 
 @media screen and (max-width:300px) {
+  #header {
+    padding: 0.8rem;
+    height: 7rem;
+    margin-top: 0;
+  }
+
+  .logo-image {
+    width: 14rem;
+  }
+
   .image-of-a-satellite-dish {
     display: none;
+  }
+
+  #btn-mobile {
+     right: 1rem;
+  }
+
+  .principal-image {
+    height: 16rem;
+    width: 90%;
+  }
+  
+  h2 {
+    width: 230px;
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
   }
 }

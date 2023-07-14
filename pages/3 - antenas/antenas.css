@@ -53,7 +53,7 @@ body {
 }
 
 #inicio-opcao {
-  margin-right: 10rem;
+  margin-right: 12rem;
 }
 
 #btn-mobile {
@@ -346,6 +346,17 @@ a {
   position: relative;
 }
 
+@media screen and (max-width:1000px) {
+  #btn-mobile {
+    right: 1rem;
+  }
+
+
+  #inicio-opcao, #contate-nos-opcao {
+    right: 15rem;
+  }
+}
+
 @media screen and (max-width:900px) {
   body {
     width: 100vw;
@@ -411,5 +422,39 @@ a {
   
   #come-back-top {
     left: 15px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  #header {
+    padding: 0.8rem;
+    height: 7rem;
+    margin-top: 0;
+  }
+
+  .logo-image {
+    width: 14rem;
+  }
+
+  .image-of-a-satellite-dish {
+    display: none;
+  }
+
+  #btn-mobile {
+     right: 1rem;
+  }
+
+  .principal-image {
+    height: 20rem;
+  }
+
+  
+  h2 {
+    width: 230px;
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
   }
 }

@@ -429,3 +429,36 @@ a {
     left: 15px;
   }
 }
+
+@media screen and (max-width:300px) {
+  #header {
+    padding: 0.8rem;
+    height: 7rem;
+    margin-top: 0;
+  }
+
+  .logo-image {
+    width: 14rem;
+  }
+
+  .image-of-a-satellite-dish {
+    display: none;
+  }
+
+  #btn-mobile {
+     right: 1rem;
+  }
+
+  .principal-image {
+    height: 20rem;
+  }
+
+  h2 {
+    width: 230px;
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+  }
+}
