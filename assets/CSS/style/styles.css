@@ -404,6 +404,17 @@ a {
   text-shadow: 0.5rem 0.5rem #605b5ba7;
 }
 
+@media screen and (max-width:1000px) {
+  #btn-mobile {
+    right: 1rem;
+  }
+
+
+  #inicio-opcao, #contate-nos-opcao {
+    right: 15rem;
+  }
+}
+
 @media screen and (max-width:900px) {
   body {
     width: 100vw;
@@ -430,7 +441,7 @@ a {
   }
 
   .d-block {
-    height: 27rem;
+    height: 35rem;
   }
 }
 
@@ -497,7 +508,7 @@ a {
 
   .paragraph {
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: start;
   }
 
   #title, #title2 {
@@ -514,5 +525,10 @@ a {
 
   #days-week {
     font-size: 1.2rem;
+  }
+
+  #whatsapp-icon, #instagram-icon, #come-back-top {
+    width: 3rem;
+    height: 3rem;
   }
 }

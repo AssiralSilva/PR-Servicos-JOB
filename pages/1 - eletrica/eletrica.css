@@ -125,7 +125,7 @@ body {
 /* **section -principal-image** */
 .principal-image {
   width: 100%;
-  height: 35rem;
+  height: 40rem;
   margin-top: 8%;
   margin-bottom: 5rem;
 }
@@ -363,8 +363,8 @@ a {
     right: 3.2rem;
   }
 
-  .d-block {
-    height: 27rem;
+  .principal-image {
+    height: 35rem;
   }
 }
 
@@ -393,7 +393,7 @@ a {
     display: none;
   }
 
-  #whatsapp-icon, #instagram-icom, #come-back-top {
+  #whatsapp-icon, #instagram-icon, #come-back-top {
     left: 15px;
   }
 }
@@ -434,5 +434,17 @@ a {
 
   .span-title-principal-paragraph {
     font-size: 1.8rem;
+  }
+
+  #whatsapp-icon, #instagram-icon, #come-back-top {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .btn-read-more {
+    width: 12rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
 }
