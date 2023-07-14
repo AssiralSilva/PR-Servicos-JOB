@@ -495,7 +495,10 @@ a {
     font-size: 30px;
   }
 
-  
+  .paragraph {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
 
   #title, #title2 {
     font-size: 1.8rem;
