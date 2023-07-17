@@ -1,0 +1,41 @@
+Mobile
+.logo-image {
+	width: 14rem;
+}
+
+#header {
+	display:flex;
+	justify-content: center;
+}
+
+#nav.active #menu {
+	right: 0;
+	border-radius: 10px 0 0 10px;
+}
+
+#menu {
+	width:95%;
+	 top: 93px;
+}
+
+.principal-imagem {
+	margin-top: 1%;
+}
+
+desktop:
+
+#menu {
+	width: 30%;
+	top: 80px;
+}
+
+#btn-mobile {
+	padding: 1rem;
+}
+
+Anotações:
+
+Arrumar com javascript para ao clicar fora do menu ele desaparecer.
+
+
+

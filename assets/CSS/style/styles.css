@@ -229,9 +229,7 @@ h2 {
   background: #1e1e1e;
   margin-bottom: 20px;
   padding: 35px;
-  position: relative;
-  right: -34%;
-  z-index: -1;
+  margin-left: 3.5rem;
 }
 
 .options2 {
@@ -248,14 +246,14 @@ h2 {
   height: 40px;
   position: fixed;
   bottom: 90px;
-  right: 30px;
+  left: 30px;
 }
 
 #whatsapp-icon {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 30px;
+  left: 30px;
   bottom: 215px;
 }
 
@@ -263,7 +261,7 @@ h2 {
   width: 40px;
   height: 40px;
   position: fixed;
-  right: 30px;
+  left: 30px;
   bottom: 160px;
 }
 
