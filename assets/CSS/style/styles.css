@@ -439,19 +439,24 @@ a {
   }
 
   .d-block {
-    height: 35rem;
+    height: 30rem;
   }
 }
 
 @media screen and (max-width:600px) {
   #header {
     justify-content: space-between;
+    height: 4rem;
   }
 
   .logo-image {
     width: 13.4rem;
     height: 5.5rem;
     padding-top: 1rem;
+  }
+
+  .image-of-a-satellite-dish {
+    height: 5rem;
   }
 
   #menu {
@@ -496,11 +501,11 @@ a {
 
 
   .d-block {
-    height: 18rem;
+    height: 15rem;
   }
 
   h2 {
-    width: 230px;
+    width: 152px;
     font-size: 30px;
   }
 

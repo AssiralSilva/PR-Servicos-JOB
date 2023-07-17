@@ -164,11 +164,19 @@ h2 {
   text-align: justify;
 }
 
-.span-of-paragraph {
+.span-of-paragraph-principal {
   display: block;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-family: 'Arial Narrow', sans-serif;
   font-weight: 600;
+  text-align: justify;
+}
+
+.span-title-principal-paragraph {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 #title,
@@ -463,7 +471,7 @@ a {
   .btn-read-more {
     width: 20rem;
     height: 3.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
   }
 }
