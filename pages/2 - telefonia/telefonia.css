@@ -243,14 +243,13 @@ li {
   margin-bottom: 3.5rem;
   width: 15rem;
   height: 5rem;
-  font-size: 2rem;
   border-radius: 2rem;
   color: #ffffff;
   background-color: #f27b35;
   border: transparent;
   text-align: center;
-  padding: 1rem;
-
+  padding: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .btn-read-more:hover {
@@ -382,6 +381,11 @@ a {
   #whatsapp-icon, #instagram-icon, #come-back-top {
     left: 15px;
   }
+
+  .btn-read-more {
+    width: 18rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width:300px) {
@@ -421,12 +425,5 @@ a {
   #whatsapp-icon, #instagram-icon, #come-back-top {
     width: 3rem;
     height: 3rem;
-  }
-
-  .btn-read-more {
-    width: 20rem;
-    height: 3.5rem;
-    font-size: 1rem;
-    padding: 1rem;
   }
 }
