@@ -12,3 +12,5 @@ Tecnologias usadas:
   - <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript-logo"/>
 
 <a href="https://prservicos.netlify.app/">Link do site</a>
+
+https://github.com/AssiralSilva/PR-Servicos-JOB/assets/92412733/4bbf6768-b683-4e21-a249-5ae23cb598ec
